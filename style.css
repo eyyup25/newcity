@@ -1,0 +1,69 @@
+h1{
+    color: red;
+    border: 5px solid;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+h3{
+    text-align: center;
+}
+p{
+    color: black;
+    padding:10px;
+}
+body{
+    background-color:bisque;
+}
+img{
+    border-radius: 20%;
+}
+#adana{
+    width: 600px;
+    height: 400px;
+    background-color: pink;
+    border: 20px solid black;
+    float: left;
+}
+#adiyaman{
+    width: 600px;
+    height: 400px;
+    background-color: pink;
+    border: 20px solid black;
+    float: left;
+}
+#erzurum{
+    width: 600px;
+    height: 400px;
+    background-color: pink;
+    border: 20px solid black;
+    float: left;
+}
+#van{
+    width: 600px;
+    height: 400px;
+    background-color: pink;
+    border: 20px solid black;
+    float: left;
+}
+#kayit{
+    width: 800px;
+    height: 800px;
+    background-color: pink;
+    border: 5px solid black;
+    margin: auto;
+    padding-top: 50px;
+}
+h2{
+    text-align: center;
+}
+#giris{
+    width: 400px;
+    height: 400px;
+    background-color:azure;
+    border: 5px solid red;
+    margin: auto;
+    padding-top: 40px;
+    padding: 100px 100px 100px 100px;
+    box-sizing: border-box;
+}

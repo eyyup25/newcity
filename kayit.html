@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>KAYIT FORMU</h2>
+
+    <div id="kayit">
+        <div id="giris">
+        <label>İsim:</label>
+        <input name="isim" required type="text" id="isim"/><br>
+        <label>Parola:</label>
+        <input name="parola" required  type="password" id="parola" /><br>
+
+        <button type="button" onclick="Sakla()">Kayıt Ol</button>
+        <button type="button" onclick="Kontrol()">Giriş</button>
+
+        <script>
+           
+            function Sakla() 
+            {
+                var isim = document.getElementById("isim").value;
+                localStorage.setItem('isim', isim);
+                var parola = document.getElementById("parola").value;
+                localStorage.setItem('parola', parola);
+            }
+            function Kontrol() 
+            {
+                var sonuc=document.getElementById("sonuc");
+                if(isim==sonuc & parola==sonuc)
+                {
+                    alert("Kayıt Başarılı")
+                }
+                else{
+                    alert("Kayıt Başarısız")
+                }   
+            }
+        </script>
+        </div>
+    </div>
+
+</body>
+</html>
